@@ -1,0 +1,31 @@
+.top-part {
+    width: 100%;
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+.left-side h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.left-side h2{
+    font-size: 40px;
+}
+.left-side span{
+    color:  #0284b1 ;
+}
+.left-side a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #0284b1;
+    padding: 10px 40px;
+    border-radius: 5px;
+}  
+.right-side{
+    width: 50%;
+}
+.right-side img {
+    width: 400px;
+}
