@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 .top-part {
     width: 100%;
     display: flex;
@@ -12,6 +15,7 @@
 }
 .left-side h2{
     font-size: 40px;
+    margin-top: -40px;
 }
 .left-side span{
     color:  #0284b1 ;
@@ -31,6 +35,9 @@
 .right-side img {
     width: 400px;
 }
+.N-part{
+    margin-top: -40px;
+}
 .N-part .mission-part{
     display: flex;
     margin: 90px;
@@ -46,6 +53,7 @@
     width: 30%;
     background-color: #D1F2EB;
     padding-left: 50px;
+    border-radius: 10px;
 }
 .N-part .a img{
     width: 100px;
@@ -56,6 +64,7 @@
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 50px;
+    border-radius: 10px;
 }
 .N-part .b img{
     width: 100px;
@@ -64,6 +73,7 @@
     width: 33%;
     background-color: #D6EAF8;
     padding-left: 50px;
+    border-radius: 10px;
 }
 .N-part .c img{
     width: 30%;
@@ -76,7 +86,8 @@
     margin-left: 90px;
 }
 .develop .left-side-a img{
-    width: 400px;
+    width: 500px;
+    border-radius: 120px 2px;
 }
 .develop .right-side-b{
     width: 50%;
@@ -87,6 +98,7 @@
 .develop .right-side-b h2{
     font-size: 40px;
     color: #0284b1;
+    margin-top: -40px;
 }
 .develop .right-side-b a{
     text-decoration: none;
@@ -109,6 +121,7 @@
 }
 .know-our-global-community .left-area-text h2{
     font-size: 30px;
+    margin-top: -25px;
 }
 .know-our-global-community a{
     text-decoration: none;
@@ -122,5 +135,96 @@
     width: 50%;
 }
 .know-our-global-community .right-area-img img{
-    width: 400px;
+    width: 500px;
+    border-radius: 120px 2px;
+}
+.contact-area h1{
+    font-size: 50px;
+    text-align: center;
+}
+.contact-area h1 span{
+    color: #0284b1;
+}
+.contact-area .contact {
+    width: 50%;
+    margin-left: 25%;
+}
+.contact-area .name {
+    display: inline;
+    width: 50%;
+}
+.contact-area #text1{
+    width: 50%;
+    margin-left: 125px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.contact-area .mail {
+    display: inline;
+    width: 50%;
+}
+.contact-area #text2{
+    width: 50%;
+    margin-left: 125px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.contact-area .sub {
+    display: inline;
+    width: 50%;
+}
+.contact-area #text3{
+    width: 50%;
+    margin-left: 112px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.contact-area .phone {
+    display: inline;
+    width: 50%;
+}
+.contact-area #text4{
+    width: 50%;
+    margin-left: 50px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.contact-area .message {
+    display: inline;
+    width: 50%;
+}
+.contact-area #text5{
+    width: 50%;
+    margin-left: 105px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.contact-area .button{
+    margin-left: 35%;
+    margin-top: 30px;
+}
+.contact-area .button a{
+    text-decoration: none;
+    background-color: #0284b1;
+    padding: 15px 40px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+footer{
+    margin-top: 55px;
+    background-color: #000;
+    height: 180px;
+}
+footer h1{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+footer h1 span{
+    color: #0284b1;
+}
+footer p{
+    color: #fff;
+    text-align: center;
 }
